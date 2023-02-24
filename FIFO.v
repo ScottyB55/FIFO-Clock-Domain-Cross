@@ -10,7 +10,7 @@ module cdc_fifo #(parameter DATA_WIDTH = 8) (
     output reg [DATA_WIDTH-1:0] read_data
 );
 
-	// Parameters
+	// Params
 	parameter ADDR_WIDTH = 4;   // Address width of the FIFO
 
 	// The number of addresses in the stack

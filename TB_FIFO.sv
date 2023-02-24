@@ -17,7 +17,7 @@ module cdc_fifo_tb;
     wire write_full;
     wire [DATA_WIDTH-1:0] read_data;
 
-	// Good reference https://www.realdigital.org/doc/43c79714a7f3d0bbb8098d60c63fde48
+	// Good ref https://www.realdigital.org/doc/43c79714a7f3d0bbb8098d60c63fde48
 	cdc_fifo #( .DATA_WIDTH(DATA_WIDTH) ) dut (
 		.clock_write(clock_write),
 		.clock_read(clock_read),

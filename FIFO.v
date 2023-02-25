@@ -101,7 +101,7 @@ module cdc_fifo #(parameter DATA_WIDTH = 8) (
 		end
 	end
 	
-	// Output the read data
+	// Output the read data test
 	reg [ADDR_WIDTH-1:0] temp;
 	always @(*) begin
 		temp = read_ptr_next;//-1
